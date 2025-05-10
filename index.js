@@ -19,7 +19,7 @@ buttons.forEach((btn) => {
 
 
     btn.addEventListener("click", () => {
-        // when clicked button is not erased button 
+        // when clicked button is not erased button
         if (!btn.id.match('erase')) {
             // To display value on btn press
             realTimeScreenValue.push(btn.value)
